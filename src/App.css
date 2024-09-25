@@ -1,0 +1,65 @@
+/* Sidebar Container */
+.sidebar {
+  background-color: #2b2b2b;
+  color: #d0d0d0;
+  padding: 20px;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid #444;
+}
+
+/* Folder dan File dalam Sidebar */
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.sidebar li {
+  margin-bottom: 5px;
+}
+
+.folder-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar ul ul {
+  padding-left: 20px;
+}
+
+.sidebar a {
+  color: #d0d0d0;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #3c3f41;
+}
+
+.sidebar a.active {
+  background-color: #007acc;
+}
+
+/* Content */
+.content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.code-editor {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
